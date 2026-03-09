@@ -2,6 +2,7 @@
 | nome colonna | tipo di dato | attributi | indice |
 | ------------ | ------------ | --------- | ------ |
 |id| BIGINT|NOT NULL, UNIQUE, AUTO INCREMENT|PRIMARY KEY|
+|auto-img| VARCHAR(255)| NULL||
 |marca-auto| VARCHAR(20)| NOT NULL| INDEX|
 |modello-auto| VARCHAR(20)| NOT NULL| INDEX|
 |targa| CHAR(7)| NOT NULL, UNIQUE| INDEX|
